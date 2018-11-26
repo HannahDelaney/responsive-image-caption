@@ -52,7 +52,7 @@ p {
     line-height: 1.4;
   }
 
-  img {
+  figure {
     position: relative;
     width: 100%;
   }
@@ -62,9 +62,9 @@ p {
     color: #fff;
     border-radius: 10px;
     position: absolute;
-    right: 1rem;
-    bottom: 27.25rem;
     max-width: 20rem;
+    right: 1rem;
+    bottom: 1rem;
   }
 
 }
@@ -76,11 +76,6 @@ p {
     line-height: 1.5;
   }
 
-  figcaption {
-    right: 1.5rem;
-    bottom: 16rem;
-  }
-
 }
 
 @media only screen and (min-width: 90em) {
@@ -88,11 +83,6 @@ p {
   html {
     font-size: 130%;
     font-size: 1.5rem;
-  }
-
-  figcaption {
-    right: 1.5rem;
-    bottom: 5rem;
   }
 
 }
